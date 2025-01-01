@@ -35,7 +35,7 @@ This document outlines the features of the project, providing a detailed descrip
 ---
 
 ## 🎓 Academy
-- **Discover AJI NCODEW Academy**:  
+- **Discover Ajincodew academy**:  
   A collection of free and paid courses designed to help learners enhance their skills in software development, IT, and related fields.
   - **Free Courses**: High-quality educational resources accessible to everyone.
   - **Paid Courses**: Advanced and specialized courses for those seeking deeper knowledge.
@@ -43,7 +43,7 @@ This document outlines the features of the project, providing a detailed descrip
 ---
 
 ## 🌐 About
-- **Discover AJI NCODEW Community**:  
+- **Discover Ajincodew community**:  
   Learn about the vibrant community of developers and IT enthusiasts who contribute to the growth and success of AJI NCODEW.
 
 ---
