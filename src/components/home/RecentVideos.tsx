@@ -24,7 +24,6 @@ export default function RecentVideos({
         className={classes.seeAllButton}
         href={allVideosExternalLink}
         endIcon={<AddIcon />}
-        target={"_blank"}
       >
         See more
       </PrimaryButton>
