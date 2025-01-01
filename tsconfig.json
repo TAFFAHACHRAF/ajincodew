@@ -39,6 +39,6 @@
     }
   ],
   "files": [
-    "@types/block-content-to-react.d.ts"
+    "@types/platform.ts"
   ]
 }
