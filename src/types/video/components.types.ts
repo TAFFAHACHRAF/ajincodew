@@ -3,6 +3,7 @@ import { VideoItem, VideoMap } from "./video.types";
 
 export interface VideoCardProps {
   videoCardData: VideoItem;
+  views?: number;
   className?: string;
 }
 

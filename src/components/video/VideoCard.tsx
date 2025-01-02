@@ -10,7 +10,8 @@ import { useVideoCardStyles } from "../../styles/home/videoCard.styles";
 export default function VideoCard({
   videoCardData,
   className,
-}: VideoCardProps): JSX.Element {
+  views
+}: VideoCardProps): any {
   const classes = useVideoCardStyles();
   const videoLink = createVideoLink(videoCardData.slug.current);
 
@@ -49,9 +50,10 @@ export default function VideoCard({
             <Typography
               variant="body2"
               component="p"
-              className={classes.metadataPanel}
+              className={clsx(classes.metadataPanel)}
             >
               Streamed {videoCardData.streamingDateStr}
+              <span> {views} vues</span>
             </Typography>
           </CardContent>
         </CardActionArea>

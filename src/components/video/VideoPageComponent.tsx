@@ -6,7 +6,7 @@ import { useVideoPageStyles } from "../../styles/video/videoPageComponent.styles
 
 export default function VideoPageComponent({
   videoPageEpisodes,
-}: VideoPageProps): JSX.Element {
+}: VideoPageProps): any {
   const classes = useVideoPageStyles();
   return (
     <section className={classes.root}>

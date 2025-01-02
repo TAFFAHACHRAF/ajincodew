@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import { selectVideoStateField } from "../../store/video/selectors";
 
 
-export default function VideoPageContainer(): JSX.Element {
+export default function VideoPageContainer(): any {
   const videoPageEpisodes = useSelector(
     selectVideoStateField("pageVideoEpisodes")
   ) as VideoMap;
