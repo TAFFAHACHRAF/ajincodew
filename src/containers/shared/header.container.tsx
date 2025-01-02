@@ -9,6 +9,10 @@ const navbarProps: HeaderProps = {
       link: "/",
     },
     {
+      label: "Videos",
+      link: "/videos",
+    },
+    {
       label: "Articles",
       link: "/articles",
     },

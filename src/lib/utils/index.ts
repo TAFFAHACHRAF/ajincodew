@@ -1,4 +1,3 @@
-import { EffectCallback } from "react";
 import { Article } from "../../types/shared/articles.types";
 
 export function isClient(): boolean {
@@ -15,6 +14,10 @@ export function createPodcastLink(podcastSlug: string): string {
 
 export function createPodcastEmbedLink(podcastId: string): string {
   return `https://open.spotify.com/embed/episode/${podcastId}?theme=0`;
+}
+
+export function createVideoEmbedLink(videoId: string): string {
+  return `https://open.spotify.com/embed/episode/${videoId}?theme=0`;
 }
 
 export function createVideoLink(videoId: string): string {
